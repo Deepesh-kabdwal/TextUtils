@@ -1,0 +1,10 @@
+container-fluidrop
+rows="5" which help to increase the size of the textarea.
+
+*switch area
+switches button we use basically
+to give margin we write mg-2 for that one.
+pre tag basically used when the paragraph is not written there then we use the pre tag basically
+
+
+* it is the name of the changing 

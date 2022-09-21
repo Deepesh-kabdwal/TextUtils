@@ -1,0 +1,31 @@
+pip install django
+django-admin startproject pwhTutorial
+python manage.py runserver
+webserver gateway interface (wsgi.py) used for hosting
+
+#path 
+first argument what to append where the url will go like (about) domain ahead it will come.
+second argument is the function that needed to be run 
+third name is the path name.
+from django.http import Httpresponse
+
+now to link in the code  we can give the anchor tag in the form of string.
+
+vedio 7 pipeline
+pipelineling
+
+vedio 8
+what is a templates?
+ans:templates is the substitution of the string basically.
+Templates we have to change in the Dirs we basically write the templates there.
+from django.shortcuts import render
+render(request,'index.html',params)
+first argument take the request and second argument take the file name index.html and third argument take the dictionary
+
+vedio 16 
+get request-> 1)get request basically work on the request send with the help of the url link specially we give the link
+and through that link basicaly the get request is given When we don't give anything basically it will take the get default 
+2) we cannot send everything in the get request because if we send everything with the get request the string will be long and get request
+has the limit to handle it basically.
+post request -> post request is the request basically work in the security purpose example like the old password request or the new password 
+2)csrf(cross side request forgery)
